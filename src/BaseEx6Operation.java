@@ -5,7 +5,7 @@ public class BaseEx6Operation {
 
 	private static final Scanner sc = new Scanner(System.in);
 
-	//////// CLI colors ///////////////////////////
+	//////// CLI COLORS ///////////////////////////
 
 	private static final String RESET = "\u001B[0m";
 	private static final String YELLOW = "\u001B[33m";
@@ -95,7 +95,8 @@ public class BaseEx6Operation {
 		}
 	}
 
-	// ------------- [6.2] -------------
+	/////////////////// [6.2] /////////////////////////////
+
 	private static void demo62Triangles() {
 		System.out.println("\n[6.2] Triangles");
 		System.out.print("Hauteur du triangle : ");

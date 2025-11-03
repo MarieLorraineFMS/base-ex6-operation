@@ -1,13 +1,11 @@
 public final class TriangleUtils {
-    private TriangleUtils() {
-    }
 
     public static void printRightTriangle(int height) {
         // Print a rectangle triangle using nested loops
         for (int i = 1; i <= height; i++) {
-            for (int s = 0; s < (height - i); s++)
+            for (int space = 0; space < (height - i); space++)
                 System.out.print(" ");
-            for (int a = 0; a < i; a++)
+            for (int star = 0; star < i; star++)
                 System.out.print("*");
             System.out.println();
         }

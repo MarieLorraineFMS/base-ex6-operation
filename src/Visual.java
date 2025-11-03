@@ -17,7 +17,7 @@ public final class Visual {
         return str.replaceAll("\\.?0+$", "");
     }
 
-    ////////////////// Timing /////////////////////////
+    ////////////////// TIMING /////////////////////////
 
     public static void sleep() {
 
